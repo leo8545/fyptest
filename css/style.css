@@ -1,0 +1,132 @@
+body {
+	margin: 0;
+	padding: 0;
+	position: relative;
+	min-height: 100vh;
+	font-family: sans-serif;
+}
+header {
+	background: #c31432; /* fallback for old browsers */
+	background: -webkit-linear-gradient(
+		to right,
+		#240b36,
+		#c31432
+	); /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(
+		to right,
+		#240b36,
+		#c31432
+	); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	padding: 10px 0;
+	margin-bottom: 20px;
+}
+header .title {
+	text-align: center;
+}
+header a {
+	color: #fff;
+	text-decoration: none;
+}
+main {
+	max-width: 700px;
+	display: block;
+	margin: 0 auto;
+	padding-bottom: 6rem;
+}
+.heading {
+	color: #fff;
+	font-size: 120%;
+	background: #777;
+	padding: 10px;
+	margin-bottom: 2rem;
+}
+.form-field {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	margin: 10px 0;
+}
+.form-field > *:first-child {
+	flex: 0 0 30%;
+}
+.form-field > input {
+	width: 250px;
+	line-height: 2em;
+}
+div#dob select {
+	padding: 5px;
+}
+div#dob select:not(#dobyear) {
+	margin-right: 5px;
+}
+#dobday {
+	width: 60px;
+}
+#dobmonth {
+	width: 90px;
+}
+#dobyear {
+	width: 94px;
+}
+.calculate-form select {
+	width: 254px;
+	padding: 5px;
+}
+input[type*="submit"],
+.btn {
+	background: #ddd;
+	padding: 10px 50px;
+	border: 1px solid #ddd;
+	border-radius: 50px;
+	margin: 20px auto;
+	color: #111;
+	text-decoration: none;
+}
+input[type*="submit"]:hover,
+.btn:hover {
+	background-color: #fff;
+	cursor: pointer;
+}
+#country_selector {
+	line-height: 2em;
+	width: 254px;
+}
+.info-box ul {
+	list-style: none;
+	padding: 0;
+}
+.info-box ul li {
+	padding: 12px 6px;
+	background-color: #d9534f;
+	color: #fff;
+	border-radius: 5px;
+	margin-bottom: 5px;
+}
+table {
+	width: 100%;
+	border-collapse: collapse;
+}
+table tr:first-child {
+	background-color: #777;
+	color: #fff;
+	text-align: center;
+}
+table td {
+	padding: 10px 0;
+	border: 1px solid #ddd;
+}
+table tr:nth-child(even) {
+	background-color: #f2f2f2;
+}
+footer {
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	background-color: #111;
+	margin-top: 50px;
+	padding: 10px 0;
+	text-align: center;
+	font-family: monospace;
+	font-size: 18px;
+	color: #ffffff;
+}
